@@ -1,7 +1,10 @@
 setq default-tab-width 4)
 
 def calculate(arg):
-    pass
+    stack = list()
+    for token in arg.split():
+        stack.append(token)
+    print(stack)
 
 def main():
     while True:
