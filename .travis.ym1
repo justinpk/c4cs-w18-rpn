@@ -1,0 +1,5 @@
+laguage: python
+python:
+  - "3.5"
+script
+  - test_rpn.py
